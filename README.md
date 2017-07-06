@@ -1,7 +1,10 @@
 # Laravel5.4 Event Manage with google calendar
 	
 	1) composer require mspconcepts/ddscalendar
-	2) php artisan vendor:publish --provider="Spatie\GoogleCalendar\GoogleCalendarServiceProvider"
+    2) Add service provider in config/app.php 
+            MspPack\DDSCalendar\DDSCalendarServiceProvider::class,
+    3) php artisan vendor:publish
+	4) php artisan migrate
 
 This will publish file called `laravel-google-calendar.php` in your config-directory with this contents:
 ```

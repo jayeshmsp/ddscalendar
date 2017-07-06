@@ -23,7 +23,6 @@ class DDSCalendarServiceProvider extends ServiceProvider {
 
         $this->publishes([
             __DIR__.'/resources' => resource_path('views'),
-            __DIR__.'/database/seeds' => database_path('seeds'),
         ]);
         $this->publishes([
             __DIR__.'/public' => public_path(),
