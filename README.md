@@ -3,25 +3,25 @@
 	1) composer require mspconcepts/ddscalendar
 	2) php artisan vendor:publish --provider="Spatie\GoogleCalendar\GoogleCalendarServiceProvider"
 
-	This will publish file called `laravel-google-calendar.php` in your config-directory with this contents:
-	```
-	<?php
+This will publish file called `laravel-google-calendar.php` in your config-directory with this contents:
+```
+<?php
 
-	return [
+return [
 
-	    /**
-	     * Path to a json file containing the credentials of a Google Service account.
-	     */
-	    'client_secret_json' => storage_path('app/laravel-google-calendar/client_secret.json'),
+    /**
+     * Path to a json file containing the credentials of a Google Service account.
+     */
+    'client_secret_json' => storage_path('app/laravel-google-calendar/client_secret.json'),
 
-	    /**
-	     *  The id of the Google Calendar that will be used by default.
-	     */
-	    'calendar_id' => '',
+    /**
+     *  The id of the Google Calendar that will be used by default.
+     */
+    'calendar_id' => '',
 
-	];
-	```
+];
+```
 
-	Read [this blogpost](https://murze.be/2016/05/how-to-setup-and-use-the-google-calendar-api/) to learn how to get the correct values for `client_secret_json` and `calendar_id`.
+Read [this blogpost](https://murze.be/2016/05/how-to-setup-and-use-the-google-calendar-api/) to learn how to get the correct values for `client_secret_json` and `calendar_id`.
 	
     Now go to ==> http://<YOUR DOMAIN>/admin/calendar
