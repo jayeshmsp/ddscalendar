@@ -1,7 +1,7 @@
 {
-    "name": "msppack/ddscalendar",
-    "keywords": ["Calendar","google-calendar","event-calendar","laravel-event-calendar","google-event-calendar"],
-    "description": "Use for esaly manage event or task with google event and calendar",
+    "name": "mspconcepts/ddscalendar",
+    "keywords": ["Calendar"],
+    "description": "calendar",
     "authors": [
         {
             "name": "Manoj Sonagra",
